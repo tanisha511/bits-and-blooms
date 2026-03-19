@@ -20,6 +20,7 @@ public class TwoSum {
      *
      * This avoids O(n^2) brute force → runs in O(n).
      */
+
     public int[] twoSum(int[] nums, int target) {
 
         // Map: value → index of previously seen elements (O(1) lookup)
